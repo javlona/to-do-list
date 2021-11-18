@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -10,11 +10,11 @@
     list-style: none;
 }
 
-html{
+html {
     font-family: 'Ubuntu', sans-serif;
 }
 
-body{
+body {
     height: 100vh;
     width: 100%;
     background: #130f40;
@@ -22,50 +22,50 @@ body{
     transition: all 0.2s;
 }
 
-main{
+main {
     max-width: 75%;
 }
 
-li{
+li {
     font-size: 18px;
     padding: 5px;
 }
 
-.flex{
+.flex {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
 
-.container{
+.container {
     background: rgb(255, 255, 255);
-    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
     backdrop-filter: blur(5.5px);
     height: 500px;
     width: 310px;
     border-radius: 8px;
     margin: 20px;
-    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    border: 1px solid rgba(255, 255, 255, 0.18);
     padding: 20px 25px;
     z-index: 20;
     position: relative;
 }
 
-.delete-one{
+.delete-one {
     color: rgb(243, 52, 18);
     padding-left: 7px;
     opacity: 0;
     font-size: 14px;
 }
 
-li:hover .delete-one{
+li:hover .delete-one {
     opacity: 1;
     transition: all .3s;
     cursor: pointer;
 }
 
-.checkbox{
+.checkbox {
     height: 18px;
     width: 18px;
     border-radius: 5px;
@@ -73,27 +73,27 @@ li:hover .delete-one{
     margin-right: 5px;
 }
 
-.todo-list{
+.todo-list {
     height: 85%;
     overflow-y: auto;
     margin-bottom: 10px;
 }
 
-.action{
+.action {
     bottom: 3.5%;
     margin-top: 20px
 }
 
-.input-text{
+.input-text {
     padding: 5px;
     font-size: 20px;
     position: absolute;
     border-radius: 5px;
-    background:#a0d9ff;
+    background: #a0d9ff;
     color: rgb(0, 0, 0);
 }
 
-.button-add{
+.button-add {
     padding: 5px 10px;
     font-size: 20px;
     border-radius: 50%;
@@ -103,7 +103,7 @@ li:hover .delete-one{
     color: #fff;
 }
 
-.delete-all{
+.delete-all {
     position: absolute;
     bottom: 15px;
     left: 42%;
@@ -117,24 +117,24 @@ li:hover .delete-one{
 /* Scrollbar */
 ::-webkit-scrollbar {
     width: .5em;
-    
-  }
-  
-  /* Track */
-  ::-webkit-scrollbar-track {
+
+}
+
+/* Track */
+::-webkit-scrollbar-track {
     /* box-shadow: 0 0 5px rgb(161, 161, 161);  */
     background: rgb(248, 252, 255);
     border-radius: 2px;
     height: .5em;
-  }
-   
-  /* Handle */
-  ::-webkit-scrollbar-thumb {
-    background: var(--back); 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: var(--back);
     height: .5em;
-  }
-  
-  /* Handle on hover */
-  ::-webkit-scrollbar-thumb:hover {
-    background: #3498db; 
-  }
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #3498db;
+}

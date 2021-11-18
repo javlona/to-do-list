@@ -15,9 +15,9 @@ let addText = () => {
     inputText.value = ""
 }
 
-// let deleteList = (e) => {
-//     e.remove();
-// }
+let deleteList = (e) => {
+    e.remove();
+}
 
 let addTextOnButton = () => addText();
 
