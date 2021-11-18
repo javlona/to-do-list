@@ -19,9 +19,11 @@ let addText = () => {
 //     e.remove();
 // }
 
+let addTextOnButton = () => addText();
+
 let addTextOnSpace = (e) => {
-    if(e === 13) addText();
+    if(e.keyCode === 13) addText();
 }
 
 inputText.addEventListener('keyup', addTextOnSpace);
-buttonAdd.addEventListener('click', addText);
+buttonAdd.addEventListener('click', addTextOnButton);
