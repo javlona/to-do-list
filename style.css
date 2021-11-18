@@ -74,13 +74,13 @@ li:hover .delete-one{
 }
 
 .todo-list{
-    height: 90%;
+    height: 85%;
     overflow-y: auto;
     margin-bottom: 10px;
 }
 
 .action{
-    bottom: 3%;
+    bottom: 3.5%;
     margin-top: 20px
 }
 
@@ -105,10 +105,36 @@ li:hover .delete-one{
 
 .delete-all{
     position: absolute;
-    bottom: 8px;
+    bottom: 15px;
     left: 42%;
     color: rgb(136, 136, 136);
     font-size: 12px;
     cursor: pointer;
     background: transparent;
 }
+
+
+/* Scrollbar */
+::-webkit-scrollbar {
+    width: .5em;
+    
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    /* box-shadow: 0 0 5px rgb(161, 161, 161);  */
+    background: rgb(248, 252, 255);
+    border-radius: 2px;
+    height: .5em;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: var(--back); 
+    height: .5em;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #3498db; 
+  }
