@@ -52,6 +52,12 @@ li {
     position: relative;
 }
 
+h3{
+    text-align: center;
+    color: #fff;
+    margin-top: 20px;
+}
+
 .delete-one {
     color: rgb(243, 52, 18);
     padding-left: 7px;
